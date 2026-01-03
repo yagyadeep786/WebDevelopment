@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family:Arial, Helvetica, sans-serif;
+      scroll-behavior: smooth;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Playwrite+CU:wght@100..400&family=UnifrakturMaguntia&display=swap');
@@ -253,4 +254,51 @@ body{
     color: rgba(255, 255, 255, 0.61);
     text-decoration: none;
     font-size: 20px;
+}
+
+
+@media (max-width:600px){
+
+    .name{
+        font-size: 1.3rem;
+    }
+    .nav{
+        display: none;
+    }
+    .hero_content{
+        flex-direction: column;
+    }
+    .tech_card{
+        width: 6rem;
+        height: 5rem;
+    }
+    .tech_card img{
+        width: 60px;
+    }
+    .project_card{
+        flex-direction: column;
+        width: 100vw;
+    }
+    .dis{
+        width: 14rem;
+        padding: none;
+        margin-bottom: 10px;
+    }
+    .card_right{
+        width: 80%;
+    }
+    .project_card1{
+        flex-direction: column;
+        width: 100vw;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer_left{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
 }
